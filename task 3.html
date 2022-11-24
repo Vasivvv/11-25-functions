@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function num(a) {
+            sum = 0;
+            if (  a < 100 && a > 50) {
+                for (let i = 0; i < a; i++) {
+                    if (i % 5 == 0) {
+                        sum++
+                    }
+
+                }
+                console.log(sum)
+                alert("yazdığınız ədədə qədər "+sum+" ədəd 5-ə bölünən ədəd var")
+            }
+
+            else {
+                console.log("ədəd 50 ilə 100 arasında deyil")
+                alert("ədəd 50 ilə 100 arasında deyil")
+            }
+        }
+        num(90) 
+    </script>
+</body>
+
+</html>

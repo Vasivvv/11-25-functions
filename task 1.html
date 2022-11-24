@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+        function num(a) {
+            if (a % 7 == 0) {
+                console.log("Bölünür")
+                alert("Bölünür")
+            }
+
+            else {
+                var x = a - (a % 7);
+                var y = x + 7;
+                var c = a - x < y - a ? x : y;
+                console.log(c)
+                alert("Ən yaxın bölünən ədəd "+c)
+            }
+
+        }
+        num(35)
+
+    </script>
+</body>
+
+</html>
